@@ -1,43 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SwedishScapes</title>
     <link rel="stylesheet" href="assets/Styles.css">
 </head>
+
 <body>
     <header class="header">
         <div class="sides">
-            <ul class="dropdown">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>>
-            <a href="#" class="menu"> </a>
-            
-        </div>
-        <div class="info">
-            <h4><a href="#category"></a></h4>
-            <h1>Swedish Scapes</h1>
-            <div class="meta">
-                By <a href="https://twitter.com/nodws" target="_blank">James Nodws</a> on May 30, 2019
+            <div class="dropdown">
+                <a href="#" class="dropbtn" aria-expanded="false" onclick="toggleDropdown()">Menu</a>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </div>
+        </div>
+
+        <div class="info">
+            <h1>Swedish Scapes</h1>
         </div>
     </header>
     <main>
         <section>
-            <h2>Cities</h2>
-            <img src="path_to_photo.jpg" alt="Description of Photo">
-            <!-- Add more photos as needed -->
+            <h2 class="Cities">Main Cities in Sweden</h2>
+            <ul>
+                <li>
+                    <div class="city-info">
+                        <div class="text-info">
+                            <h3>Stockholm</h3>
+                            <p>Stockholm, the capital of Sweden, encompasses 14 islands and more than 50 bridges on an
+                                extensive Baltic Sea archipelago. The cobblestone streets and ochre-colored buildings of
+                                Gamla Stan (the old town) are home to the 13th-century Storkyrkan Cathedral, the
+                                Kungliga Slottet Royal Palace and the Nobel Museum, which focuses on the Nobel Prize.
+                                Ferries and sightseeing boats shuttle passengers between the islands.</p>
+                        </div>
+                        <img src="assets/images/stockholm.avif" alt="Stockholm" style="width:500px; height:auto;">
+                    </div>
+                </li>
+                <li>
+                    <div class="city-info">
+                        <div class="text-info">
+                            <h3>Gothenburg</h3>
+                            <p>Gothenburg, a major city in Sweden, is situated off the Göta älv river on the country's
+                                west coast. An important seaport, it's known for its Dutch-style canals and leafy
+                                boulevards like the Avenyn, the city's main thoroughfare, lined with many cafes and
+                                shops. Liseberg is a popular amusement park with themed rides, performance venues and a
+                                landscaped sculpture garden.
+                            </p>
+                        </div>
+                        <img src="assets/images/gothenburg.jpeg" alt="Gothenburg" style="width:500px; height:auto;">
+                    </div>
+                </li>
+                <li>
+                    <div class="city-info">
+                        <div class="text-info">
+                            <h3>Malmö</h3>
+                            <p>Malmö is a coastal city in southern Sweden. It lies at the eastern end of the striking
+                                Öresund Bridge, a long road and railway bridge–tunnel running to Copenhagen, Denmark. In
+                                the city center, Lilla Torg is a cobblestone square with cafes, half-timbered houses and
+                                shops selling local handicrafts. Malmö Castle, a 16th-century fortress built by King
+                                Christian III of Denmark, houses nature, history and art exhibits. </p>
+                        </div>
+                        <img src="assets/images/Malmo.webp" alt="Malmö" style="width:500px; height:auto;">
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+        </ul>
         </section>
+
+
     </main>
     <footer>
-        <p>Copyright © Your Name 2024</p>
+        <p>Copyright © Marcus Shaqir 2024</p>
     </footer>
 </body>
+
 </html>
