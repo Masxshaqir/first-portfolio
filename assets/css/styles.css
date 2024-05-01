@@ -439,3 +439,50 @@ footer {
         grid-template-columns: repeat(1, 1fr); 
     }
 }
+
+@media (max-width: 280px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        min-height: 200px; /* Reduce the minimum height for smaller devices */
+    }
+
+    .dropdown .dropbtn {
+        padding: 8px;
+        font-size: 12px; /* Reduce font size */
+    }
+
+    .info h1 {
+        font-size: 1.5em; /* Reduce the font size of the header title */
+        padding: 0 5%; /* Reduce padding around title */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* Only one column in the gallery */
+    }
+
+    .img-box {
+        width: 100%; /* Full width for image boxes to use available space */
+        padding: 5px; /* Reduce padding */
+        height: auto; /* Make height automatic to maintain aspect ratio */
+    }
+
+    .img-box img {
+        width: 100%; /* Ensure image uses all available space */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .content,
+    .text-info p,
+    .footer p {
+        font-size: 0.8em; /* Reduce font size for content and footer text */
+    }
+
+    .form-container,
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    button {
+        width: 100%; /* Ensure form elements use all available space */
+    }
+}
