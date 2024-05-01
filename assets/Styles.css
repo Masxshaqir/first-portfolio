@@ -104,7 +104,7 @@ a {
 
 .dropdown:hover .dropbtn {
     background-color: #555;
-    
+
 }
 
 
@@ -119,7 +119,7 @@ a {
     display: flex;
     justify-content: flex-end;
     width: 95%;
-    
+
 }
 
 .info {
@@ -171,18 +171,30 @@ a {
 }
 
 .Cities {
-    text-align: center; /* Centers the text horizontally on the page */
-    font-size: 3em; /* Makes the font size larger; adjust as needed */
-    font-weight: bold; /* Makes the text bold */
-    color: #000000; /* Dark grey color for the text, change as per your design */
-    margin-top: 15px; /* Adds space at the top, adjust based on your layout needs */
-    margin-bottom: 15px; /* Adds space at the bottom */
-    text-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Adds a subtle shadow for depth */
-    padding: 10px; /* Adds padding around the text */
-    background-color: #ebe1e1; /* Light background color, optional */
-    border-radius: 8px; /* Rounded corners for the background, optional */
-    width: fit-content; /* Ensures the background only extends around the text */
-    margin-left: auto; /* These two margins center the block */
+    text-align: center;
+    /* Centers the text horizontally on the page */
+    font-size: 3em;
+    /* Makes the font size larger; adjust as needed */
+    font-weight: bold;
+    /* Makes the text bold */
+    color: #000000;
+    /* Dark grey color for the text, change as per your design */
+    margin-top: 15px;
+    /* Adds space at the top, adjust based on your layout needs */
+    margin-bottom: 15px;
+    /* Adds space at the bottom */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Adds a subtle shadow for depth */
+    padding: 10px;
+    /* Adds padding around the text */
+    background-color: #ebe1e1;
+    /* Light background color, optional */
+    border-radius: 8px;
+    /* Rounded corners for the background, optional */
+    width: fit-content;
+    /* Ensures the background only extends around the text */
+    margin-left: auto;
+    /* These two margins center the block */
     margin-right: auto;
 }
 
@@ -220,12 +232,12 @@ section ul li {
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     font-size: 18px;
-    
+
 }
 
 section ul li:hover {
     background-color: #e0e0e0;
-    
+
 }
 
 
@@ -236,7 +248,7 @@ section ul li:hover {
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: lightgray;
-    
+
 }
 
 input[type="text"],
@@ -316,28 +328,28 @@ footer {
     color: white;
     text-align: center;
     padding: 25px 0;
-    position:relative ; /* Keeps the footer at the bottom of the viewport */
+    position: relative;
     bottom: 0;
     left: 0;
 }
 
 
 
-/* Mobile devices */
+
 @media (max-width: 600px) {
     .header {
         flex-direction: column;
     }
 }
 
-/* Tablets and small desktops */
+
 @media (min-width: 601px) and (max-width: 1024px) {
     .header {
         justify-content: space-between;
     }
 }
 
-/* Large desktops */
+
 @media (min-width: 1025px) {
     .header {
         padding: 30px 40px;
@@ -345,37 +357,78 @@ footer {
 }
 
 body {
-    font-size: 14px; /* Default text size */
+    font-size: 14px;
 }
 
 @media (min-width: 601px) {
     body {
-        font-size: 16px; /* Slightly larger text for tablets and small desktops */
+        font-size: 16px;
     }
 }
 
 @media (min-width: 1025px) {
     body {
-        font-size: 18px; /* Comfortable reading size for large desktops */
+        font-size: 18px;
     }
 }
 
-/* Default size for mobile devices */
 img {
     width: 100%;
     height: auto;
 }
 
-/* Larger images on tablets */
 @media (min-width: 600px) {
     img {
-        width: 80%; /* Smaller than 100% to avoid overly large images on tablets */
+        width: 80%;
     }
 }
 
-/* Custom size for desktops */
+
 @media (min-width: 1024px) {
     img {
-        width: 50%; /* Larger screens can accommodate larger but not full-width images */
+        width: 50%;
+    }
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.img-box {
+    flex-basis: 10%;
+    width: 400px;
+    padding: 5px;
+    margin: 10px;
+    height: 500px;
+    
+    
+    box-shadow: 1px 1px 15px 1px rgb(80, 84, 80); 
+}
+.img-box img {
+    width: 400px;
+    height:500px;
+    display: block;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1B2030;
+    color: white;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
