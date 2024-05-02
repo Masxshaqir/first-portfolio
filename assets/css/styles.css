@@ -439,6 +439,16 @@ footer {
 }
 
 @media (max-width: 280px) {
+    
+    *, *:before, *:after {
+        box-sizing: border-box;
+    }
+
+    
+    body {
+        overflow-x: hidden;
+    }
+
     .header {
         flex-direction: row;
         justify-content: space-between;
@@ -458,6 +468,7 @@ footer {
     .gallery {
         grid-template-columns: 1fr; 
         width: 80%;
+        margin: 0 auto; 
     }
 
     .img-box {
@@ -468,7 +479,7 @@ footer {
 
     .img-box img {
         width: 100%; 
-        height: auto; 
+        height: auto;
     }
 
     .content,
@@ -483,6 +494,6 @@ footer {
     textarea,
     button {
         width: 75%; 
+        max-width: 100%; 
     }
 }
-
