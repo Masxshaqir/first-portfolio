@@ -458,7 +458,7 @@ footer {
 
     .gallery {
         grid-template-columns: 1fr; 
-        width: 90%;
+        width: 80%;
     }
 
     .img-box {
@@ -483,7 +483,7 @@ footer {
     input[type="email"],
     textarea,
     button {
-        width: 100%; 
+        width: 75%; 
     }
 }
 
