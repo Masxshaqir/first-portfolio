@@ -441,8 +441,8 @@ footer {
 
 @media (max-width: 280px) {
     .header {
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         min-height: 200px; 
     }
 
@@ -458,6 +458,7 @@ footer {
 
     .gallery {
         grid-template-columns: 1fr; 
+        width: 90%;
     }
 
     .img-box {
@@ -485,3 +486,4 @@ footer {
         width: 100%; 
     }
 }
+
