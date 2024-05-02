@@ -49,10 +49,10 @@ a {
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     transform: translateZ(0) scale(1.0, 1.0);
-    background: #1B2030 url(../images/mountain.jpeg) 50% 0 no-repeat;
+    background: #1B2030 url(../images/mont2.webp) 50% 0 no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    animation: grow 360s linear 10ms infinite;
+    animation: grow 180s linear 10ms infinite;
     transition: all 0.4s ease-in-out;
     z-index: -2
 }
