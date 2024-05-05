@@ -49,7 +49,7 @@ a {
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
     transform: translateZ(0) scale(1.0, 1.0);
-    background: #1B2030 url(../images/mont2.webp) 50% 0 no-repeat;
+    background: #1B2030 url(../images/mountainus_715x477_100.webp) 50% 0 no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     animation: grow 180s linear 10ms infinite;
