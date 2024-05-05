@@ -41,19 +41,10 @@ a {
 .header:before {
     content: "";
     width: 100%;
-    height: 200%;
+    height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0);
-    backface-visibility: hidden;
-    transform: translateZ(0) scale(1.0, 1.0);
     background: #1B2030 url(../images/mountainus_715x477_100.webp) 50% 0 no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    animation: grow 180s linear 10ms infinite;
-    transition: all 0.4s ease-in-out;
+    background-size:cover;
     z-index: -2
 }
 
@@ -109,10 +100,12 @@ a {
 
 
 .info h1,
-.meta {
-    margin: 0;
-    padding: 5px;
+.meta   { 
+ margin: 0px;
+padding: 10px;
+margin-right: 30px;
 }
+
 
 
 .sides {
@@ -436,6 +429,7 @@ footer {
     .gallery {
         grid-template-columns: repeat(1, 1fr); 
     }
+    
 }
 
 @media (max-width: 280px) {
