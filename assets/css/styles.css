@@ -353,6 +353,11 @@ img {
     
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
@@ -515,7 +520,7 @@ footer {
     input[type="email"],
     textarea,
     button {
-        width: 75%; 
+        width: 70%; 
         max-width: 100%; 
     }
 
@@ -534,4 +539,23 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    textarea {
+        padding: 8px;
+        margin: 8px 45px;
+        box-sizing: border-box;}
+        
+
+
+    button {
+        background-color: #1B2030;
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    
 }
