@@ -475,8 +475,9 @@ footer {
     }
 
     .dropdown .dropbtn {
-        padding: 8px;
-        font-size: 12px; 
+        padding: 15px;
+        font-size: 15px;
+        margin-top: 5px; 
     }
 
     .info {
