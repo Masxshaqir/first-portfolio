@@ -1,112 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Marcus Shaqir,
+# Nordic Odyssey
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to Nordic Odyssey, an immersive photo gallery showcasing the breathtaking cities of Sweden. This platform offers a curated collection of visuals that captures the essence of Sweden's urban beauty and its vibrant culture. From the historic streets of Stockholm to the colorful waterfronts of Gothenburg, each photo invites you to explore and discover the rich tapestry of life across Sweden.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+# Features 
+1-Home: Return to the main homepage at any time, where you can get an overview of what "Nordic Odyssey" offers.
 
-## Gitpod Reminders
+2-Gallery: Jump straight to the heart of our site with a direct link to the photo gallery, showcasing a rich collection of images from across Sweden’s enchanting cities.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+3-Contact Us: Easily find ways to get in touch with us for any inquiries, support, or feedback.
 
-`python3 -m http.server`
+4-Responsive Across Devices: Whether you are on a desktop, tablet, or mobile, the navigation dropdown is fully responsive, adapting to the screen size and orientation for a seamless browsing experience.
+## The Header
+![Screenshot 2024-05-07 at 20 41 46](https://github.com/Masxshaqir/first-portfolio/assets/166545640/83720d34-585a-48eb-b100-8196707e99cd)
 
-A blue button should appear to click: _Make Public_,
+- Dynamic Header Design
+The header of "Nordic Odyssey" prominently features a captivating high-resolution photograph of a mountain, symbolizing the majestic and awe-inspiring nature of the Swedish landscapes showcased on our site. This image sets the tone for the immersive visual experience that follows in the gallery.
+- Intuitive Dropdown Navigation
+- Strategic Placement
+- Consistency in Design
+## Drop-Down Button 
+![Screenshot 2024-05-07 at 21 20 15](https://github.com/Masxshaqir/first-portfolio/assets/166545640/ce4fc919-73c0-4a33-a03d-4fa38c0fbb87)
+- Position and Accessibility: Positioned on the upper-left corner, this drop-down button is strategically placed for ease of access. Since the top-left corner is often the first place a user looks when visiting a webpage, especially for those who read left-to-right, this placement ensures that the navigation options are immediately visible and accessible.
+#### - Content and Functionality:
+- Home Page: This option typically takes users back to the main or starting page of the website.
+- Gallery: This link directs users to a collection of images or media relevant to the website's content.
+- Contact: This option connects users to a page where they can find contact information or a form to reach out to the website owners or administrators.
+## The Main Section
+![Screenshot 2024-05-07 at 21 03 29](https://github.com/Masxshaqir/first-portfolio/assets/166545640/c1482d38-04e6-4fcd-86fb-188884af33e0)
 
-Another blue button should appear to click: _Open Browser_.
+- Photo Gallery: Navigate through our interactive gallery showcasing the vibrant and diverse urban landscapes of Sweden. From the historical echoes of Stockholm to the innovative architecture of Malmö, each city's photo is a gateway to its soul.
+- Detailed Descriptions: Accompanying each city's photo, you will find detailed descriptions that delve into the history, culture, and significant features of each location. Learn about the city's founding, key attractions, cultural significance, and modern-day relevance.
+## The Gallery 
+![Screenshot 2024-05-07 at 21 10 11](https://github.com/Masxshaqir/first-portfolio/assets/166545640/006f6021-5df4-4a4f-bef4-f0e02e353223)
+### The gallery page of "Nordic Odyssey" is a visual celebration of Sweden’s most iconic cities. This page is designed to be the centerpiece of our website, where visitors can immerse themselves in the scenic beauty and urban charm of Sweden through a collection of carefully curated images.
+- The gallery is arranged in a grid format, presenting a selection of high-quality images that capture the diverse landscapes and architectural landmarks of cities across Sweden.
+- Curated City Photos: Below the header, the gallery showcases a variety of images from major Swedish cities like Stockholm, Gothenburg, and Malmö. Each photograph is selected to highlight significant aspects of each location—whether it’s the historic streets of Gamla Stan in Stockholm or the modernist architecture of Malmö.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Purpose of the Gallery
+####  This gallery serves as a digital window into Sweden, offering visitors a chance to explore its cities through vivid imagery. It aims to inspire travel, educate visitors about Sweden’s urban diversity, and celebrate the beauty of Swedish cityscapes. Whether for educational purposes, travel planning, or simple appreciation of photography, the gallery page is tailored to meet the needs of a diverse audience.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Contact Us Page
+![Screenshot 2024-05-07 at 21 16 54](https://github.com/Masxshaqir/first-portfolio/assets/166545640/13410803-6bdd-4cec-abb4-8463b4b901e3)
+- On the "Contact Us" page, you will find a designated contact form. This form allows you to communicate directly with us by simply entering your name, email address, and the message you wish to convey. We encourage you to use this form to submit inquiries, feedback, or any communication relevant to your needs. Please fill out the respective fields and submit your message, and we will endeavor to respond at the earliest opportunity.
+## Testing 
+- I verified the compatibility of this page across multiple browsers, including Chrome, Firefox, and Safari.
+- I ensured that this project is responsive and displays properly across a variety of screen sizes by utilizing the devtools device toolbar.
+- I checked that the navigation elements, header, and contact information are clear and easily comprehensible.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Bugs
+- When I deployed my page on GitHub, I noticed that the layout allowed horizontal scrolling on smaller devices. To resolve this issue, I implemented the code bellow in the CSS, effectively preventing any sideways movement of the page on these devices.
 
-To log into the Heroku toolbelt CLI:
+####  overflow-x: hidden;
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Validator Testing
+### HTML 
+- No errors or warnings
+### CSS
+- No Error Found.
+### Accessibility 
+- I confirm that the color and the design chosen are easy to read and accessible by running it through lighthouse in devtool .
+![Screenshot 2024-05-07 at 21 45 29](https://github.com/Masxshaqir/first-portfolio/assets/166545640/a7f3ff0f-171e-494c-b34d-cc7e61a31160)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Responsive Design 
+![Screenshot 2024-05-07 at 21 50 24](https://github.com/Masxshaqir/first-portfolio/assets/166545640/b3f4c39c-90d5-42f4-a727-500b317eb3d7)
