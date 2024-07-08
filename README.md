@@ -65,3 +65,32 @@ The header of "Nordic Odyssey" prominently features a captivating high-resolutio
 
 ## Responsive Design 
 ![Screenshot 2024-05-07 at 21 50 24](https://github.com/Masxshaqir/first-portfolio/assets/166545640/b3f4c39c-90d5-42f4-a727-500b317eb3d7)
+
+## Deployment
+
+### Version Control
+
+The site was created using a local development environment and pushed to GitHub to the remote repository 'first-portfolio'.
+Git commands were used throughout the development to push the code to the remote repository. The following git commands were used:
+- `git add .` - to add the files to the staging area before being committed.
+- `git commit -m "commit message"` - to commit changes to the local repository queue that are ready for the final step.
+- `git push` - to push all committed code to the remote repository on GitHub.
+
+### Deployment to GitHub Pages
+
+The site was deployed to GitHub Pages as follows:
+1. In the GitHub repository, navigate to the `Settings` tab.
+2. From the `Source` section drop-down menu, select the `main` branch and save.
+3. Once the `main` branch is selected, the page will provide the link to the website.
+   
+The live link: [Nordic Odyssey](https://masxshaqir.github.io/first-portfolio/)
+
+### Cloning of the Repository Code Locally
+
+To clone the repository locally:
+1. Go to the GitHub repository that you want to clone.
+2. Click on the `Code` button located above all the project files.
+3. Click on `HTTPS` and copy the repository link.
+4. Open the IDE of your choice and paste the copied git URL into the IDE terminal using the following command:
+   ```bash
+   git clone https://github.com/Masxshaqir/first-portfolio.git
