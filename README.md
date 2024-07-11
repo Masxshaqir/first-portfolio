@@ -66,6 +66,11 @@ The header of "Nordic Odyssey" prominently features a captivating high-resolutio
 ## Responsive Design 
 ![Screenshot 2024-05-07 at 21 50 24](https://github.com/Masxshaqir/first-portfolio/assets/166545640/b3f4c39c-90d5-42f4-a727-500b317eb3d7)
 
+## Attributions
+
+All content and code in this project were created and developed by [Your Name/Your Team]. No external sources were used in the creation of this project.
+
+
 ## Deployment
 
 ### Version Control
