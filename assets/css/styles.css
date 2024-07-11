@@ -3,44 +3,33 @@
 
 html,
 body {
-    /* Remove default margin and set height to 100% */
     margin: 0;
     height: 100%;
-    /* Set the font family for the entire document */
     font-family: 'Josefin Sans', sans-serif;
-    /* Prevent horizontal scrolling */
     overflow-x: hidden;
     width: 100%;
 }
 
 a {
-    /* Remove underline from links */
     text-decoration: none;
 }
 
 .header {
-    /* Relative positioning for the header */
     position: relative;
-    /* Hide overflow content */
     overflow: hidden;
-    /* Use flexbox layout */
     display: flex;
     flex-wrap: wrap;
-    /* Center items horizontally and align them to the start vertically */
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
-    /* Set the height of the header */
     height: 50vw;
     min-height: 400px;
     max-height: 550px;
     min-width: 200px;
-    /* Set the text color */
     color: #eee;
 }
 
 .header:after {
-    /* Add a gradient overlay to the header */
     content: "";
     width: 100%;
     height: 100%;
@@ -52,7 +41,6 @@ a {
 }
 
 .header:before {
-    /* Add a background image to the header */
     content: "";
     width: 100%;
     height: 100%;
@@ -63,40 +51,33 @@ a {
 }
 
 .header a {
-    /* Set the color of links inside the header */
     color: #eee;
 }
 
 .dropdown {
-    /* Relative positioning for the dropdown */
     position: relative;
     display: inline-block;
 }
 
 .dropbtn {
-    /* Style the dropdown button */
     background-color: #1B2030;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    float: right;
 }
 
 .dropdown-content {
-    /* Hide the dropdown content by default */
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    /* Add a shadow to the dropdown */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    /* Style the links inside the dropdown */
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -104,106 +85,86 @@ a {
 }
 
 .dropdown-content a:hover {
-    /* Change background color on hover */
     background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
-    /* Show the dropdown content on hover */
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    /* Change button background color on hover */
     background-color: #555;
 }
 
 .sides {
-    /* Use flexbox for layout and align items to the end */
     display: flex;
     justify-content: flex-end;
     width: 95%;
 }
 
 .info {
-    /* Set the width and padding for the info section */
     width: 100%;
     padding: 10% 10% 0 10%;
-    /* Center align text and add a shadow */
     text-align: center;
     text-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
-    /* Increase font size and line height */
     font-size: 2em;
     font-weight: bold;
     line-height: 4;
     font-style: italic;
-    display: flow;
-    unicode-bidi: isolate;
 }
 
 .info h1 {
-    /* Add a semi-transparent background to h1 */
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-contact {
-    /* Set background color for main contact section */
     background-color: darkgray;
 }
 
 .get {
-    /* Center align text and set padding */
     text-align: center;
     padding: 10px;
     font-size: xx-large;
+    margin-top: 0px;
 }
 
 .indexpics {
-    /* Set width and maintain aspect ratio */
-    width: 100%; 
+    width: 100%;
     height: auto;
 }
 
 .info h4,
 .meta {
-    /* Set font size for h4 and meta */
     font-size: 1em;
 }
 
 .meta {
-    /* Italicize meta text */
     font-style: italic;
 }
 
 @keyframes grow {
-    /* Define keyframes for the grow animation */
     0% {
         transform: scale(1) translateY(0px);
     }
-
     50% {
         transform: scale(1.2) translateY(-400px);
     }
 }
 
 .content {
-    /* Set padding and text alignment for content */
     padding: 5% 10%;
     text-align: justify;
 }
 
 .Cities {
-    /* Center align text and set font size */
     text-align: center;
     font-size: 3em;
     font-weight: bold;
     color: #000000;
     margin-top: 15px;
     margin-bottom: 15px;
-    /* Add text shadow and padding */
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    /* Set background color and border radius */
     background-color: #ebe1e1;
     border-radius: 8px;
     width: fit-content;
@@ -212,7 +173,6 @@ a {
 }
 
 .btn {
-    /* Style buttons */
     color: #333;
     border: 2px solid;
     border-radius: 3px;
@@ -223,31 +183,27 @@ a {
 }
 
 .twtr {
-    /* Add top margin for Twitter button */
     margin-top: 100px;
 }
 
 .btn.twtr:after {
-    /* Add a bird emoji after Twitter button */
     content: "\1F426";
     padding-left: 5px;
 }
 
 section {
-    /* Set display and unicode properties for section */
     display: block;
     unicode-bidi: isolate;
+    margin-bottom: -10px;
 }
 
 section ul {
-    /* Remove list styles and padding for ul */
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 section ul li {
-    /* Style list items */
     padding: 8px;
     margin-bottom: 5px;
     background-color: #f1f1f1;
@@ -256,32 +212,19 @@ section ul li {
 }
 
 section ul li:hover {
-    /* Change background color on hover */
     background-color: #e0e0e0;
-}
-
-.form-container {
-    /* Set max width and center align form container */
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    /* Add shadow and background color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: lightgray;
-    margin-bottom: 10px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    /* Style text and email inputs, and textarea */
     width: 100%;
     padding: 8px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+
 button {
-    /* Set the background color, text color, border, padding, text transformation, cursor style, display, width, and margin for buttons */
     background-color: #1B2030;
     color: white;
     border: none;
@@ -294,12 +237,10 @@ button {
 }
 
 button:hover {
-    /* Change the background color on hover for buttons */
     background-color: #292E49;
 }
 
 li {
-    /* Set the background color, padding, margin, border radius, and overflow for list items */
     background-color: #f4f4f4;
     padding: 20px;
     margin-bottom: 30px;
@@ -307,48 +248,48 @@ li {
     overflow: hidden;
 }
 
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+    width: 140%;
+}
+
 .city-info {
-    /* Use flexbox layout for city-info class, align items to the center, and set a gap between them */
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .city-info {
-    /* Use flexbox layout and center align items for city-info class */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .text-info {
-    /* Set flex growth and padding for text-info class */
     flex: 1;
     padding-right: 30px;
 }
 
 .city-info img {
-    /* Prevent image shrinking, set maximum width, and maintain aspect ratio */
     flex-shrink: 0;
     max-width: 50%;
     height: auto;
 }
 
 h3 {
-    /* Set margin, text color, and font size for h3 elements */
     margin: 0 0 20px 0;
     color: #333;
     font-size: xx-large;
 }
 
 li p {
-    /* Set text color and font size for paragraphs within list items */
     color: #666;
     font-size: 25px;
 }
 
 footer {
-    /* Set width, background color, text color, text alignment, padding, and positioning for footer */
     width: 100%;
     background-color: #1B2030;
     color: white;
@@ -359,142 +300,118 @@ footer {
     left: 0;
 }
 
-body {
-    /* Set font size for body */
-    font-size: 14px;
-}
-
 img {
-    /* Set image width and height to maintain aspect ratio */
     width: 100%;
     height: auto;
 }
 
 .gallery {
-    /* Use grid layout and set template columns, width, maximum width, margin, and positioning for gallery */
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    max-width: 1400px; 
+    max-width: 1400px;
     margin: auto;
     position: relative;
 }
 
 .img-box {
-    /* Set flex basis, width, padding, margin, height, and shadow for img-box */
     flex-basis: 10%;
     width: 400px;
     padding: 5px;
     margin: 10px;
     height: 500px;
-    box-shadow: 1px 1px 15px 1px rgb(80, 84, 80); 
+    box-shadow: 1px 1px 15px 1px rgb(80, 84, 80);
 }
 
 .img-box img {
-    /* Set width, height, and display properties for images within img-box */
     width: 400px;
     height: 500px;
     display: block;
 }
 
 body {
-    /* Prevent horizontal scrolling for body */
     overflow-x: hidden;
+    background-color: #a9a9a9;
 }
 
 footer {
-    /* Set text alignment, padding, background color, text color, and width for footer */
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     background-color: #1B2030;
     color: white;
     width: 100%;
+    position: absolute;
 }
 
 .main-gallary {
-    /* Set background color for main gallery */
     background-color: darkgray;
 }
 
-@media (max-width: 280px) {
-    /* Apply styles for screens with a maximum width of 280px */
-    
+@media (max-width: 430px) {
     *, *:before, *:after {
-        /* Apply box-sizing border-box model */
         box-sizing: border-box;
     }
-
+    
     body {
-        /* Prevent horizontal scrolling */
         overflow-x: hidden;
     }
 
     .header {
-        /* Set flex direction, justify content, and minimum height for header */
         flex-direction: row;
         justify-content: space-between;
-        min-height: 200px; 
+        min-height: 200px;
     }
-}
-.dropdown .dropbtn {
-    /* Adjust padding and font size for dropdown button */
-    padding: 8px;
-    font-size: 12px;
-}
 
-.info {
-    /* Set width, padding, text alignment, text shadow, font size, font weight, line height, font style, display, and unicode bidi for info */
-    width: 100%;
-    padding: 10% 10% 0 10%;
-    text-align: center;
-    text-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 6;
-    font-style: italic;
-    display: flow;
-    unicode-bidi: isolate;
-}
+    .dropdown .dropbtn {
+        padding: 15px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
 
-.gallery {
-    /* Set grid template columns, width, and margin for gallery */
-    grid-template-columns: 1fr;
-    width: 80%;
-    margin: 0 auto;
 }
+    .info {
+        width: 100%;
+        padding: 10% 10% 0 10%;
+        text-align: center;
+        text-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 6;
+        font-style: italic;
+    }
 
-.img-box {
-    /* Set width, padding, and height for img-box */
-    width: 100%;
-    padding: 5px;
-    height: auto;
-}
+    .gallery {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+    }
 
-.img-box img {
-    /* Set width and height for images within img-box */
-    width: 100%;
-    height: auto;
-}
+    .img-box {
+        width: 100%;
+        padding: 5px;
+        height: auto;
+    }
 
-.content,
-.text-info p,
-.footer p {
-    /* Set font size for content, text-info paragraphs, and footer paragraphs */
-    font-size: 0.8em;
-}
+    .img-box img {
+        width: 100%;
+        height: auto;
+    }
 
-.form-container,
+    .content,
+    .text-info p,
+    .footer p {
+        font-size: 0.8em;
+        }
+        .form-container,
 input[type="text"],
 input[type="email"],
 textarea,
 button {
-    /* Set width and maximum width for form container and inputs */
-    width: 75%;
+    width: 70%;
     max-width: 100%;
 }
 
 .Cities {
-    /* Set text alignment, font size, font weight, color, margin, text shadow, padding, background color, border radius, width, and margin for Cities */
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -510,137 +427,101 @@ button {
     margin-right: auto;
 }
 
-@media (max-width: 430px) {
-    /* Apply styles for screens with a maximum width of 430px */
-    
-    *, *:before, *:after {
-        /* Apply box-sizing border-box model */
-        box-sizing: border-box;
-    }
+textarea {
+    padding: 8px;
+    margin: 8px 45px;
+    box-sizing: border-box;
+    margin-left: auto;
+}
 
+button {
+    background-color: #1B2030;
+    color: white;
+    border: none;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 25%;
+}
+
+.form-container {
+    width: 70%;
+    max-width: 100%;
+    padding: 20px;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 70px auto 40px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+@media (max-width: 280px) {
+    *, *:before, *:after {
+    box-sizing: border-box;
+    }
     body {
-        /* Prevent horizontal scrolling */
         overflow-x: hidden;
     }
-
+    
     .header {
-        /* Set flex direction, justify content, and minimum height for header */
         flex-direction: row;
         justify-content: space-between;
         min-height: 200px;
     }
-
-    .dropdown .dropbtn {
-        /* Adjust padding, font size, and margin for dropdown button */
-        padding: 15px;
-        font-size: 15px;
-        margin-top: 5px;
+    
+    .form-container {
+        padding: 10px;
     }
-
-    .info {
-        /* Adjust width, padding, text alignment, text shadow, font size, font weight, line height, font style, display, and unicode bidi for info */
-        width: 100%;
-        padding: 10% 10% 0 10%;
-        text-align: center;
-        text-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
-        font-size: 1em;
-        font-weight: bold;
-        line-height: 6;
-        font-style: italic;
-        display: flow;
-        unicode-bidi: isolate;
+    
+    label {
+        font-size: 12px;
     }
-
-    .gallery {
-        /* Set grid template columns, width, and margin for gallery */
-        grid-template-columns: 1fr;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .img-box {
-        /* Set width, padding, and height for img-box */
-        width: 100%;
-        padding: 5px;
-        height: auto;
-    }
-
-    .img-box img {
-        /* Set width and height for images within img-box */
-        width: 100%;
-        height: auto;
-    }
-
-    .content,
-    .text-info p,
-    .footer p {
-        /* Adjust font size for content, text-info paragraphs, and footer paragraphs */
-        font-size: 0.8em;
-    }
-
-    .form-container,
+    
     input[type="text"],
     input[type="email"],
-    textarea,
-    button {
-        /* Set width and maximum width for form container and inputs */
-        width: 70%;
-        max-width: 100%;
-    }
-
-    .Cities {
-        /* Adjust text alignment, font size, font weight, color, margin, text shadow, padding, background color, border radius, width, and margin for Cities */
-        text-align: center;
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #000000;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        padding: 10px;
-        background-color: #ebe1e1;
-        border-radius: 8px;
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     textarea {
-        /* Set padding, margin, and box-sizing for textarea */
+        font-size: 12px;
         padding: 8px;
-        margin: 8px 45px;
-        box-sizing: border-box;
     }
-
+    
     button {
-        /* Set background color, text color, border, padding, text transformation, cursor style, display, margin-top, and margin-left for buttons */
-        background-color: #1B2030;
-        color: white;
-        border: none;
-        padding: 10px 10px;
-        text-transform: uppercase;
-        cursor: pointer;
-        display: block;
-        margin-top: 10px;
-        margin-left: 45px;
+        padding: 8px;
+        font-size: 14px;
+        margin-left: 30px;
+        width: 40%;
     }
 }
-
-@media (max-width: 600px) {
-    .info h1 {
-        /* Adjust padding for h1 elements within info */
+    @media (max-width: 600px) {
+        .info h1 {
         padding: 5px 10px;
+        }
+        h1 {
+            display: block;
+            font-size: 17px;
+            margin-block-start: -1.1em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            unicode-bidi: isolate;
+        }
+        
+        .form-container {
+            width: 70%;
+            max-width: 100%;
+            padding: 20px;
+            background: #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            margin: 0 auto 40px auto;
+        }
     }
 
-    h1 {
-        /* Set display, font size, margins, font weight, and unicode bidi for h1 elements */
-        display: block;
-        font-size: 17px;
-        margin-block-start: -1.1em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        unicode-bidi: isolate;
-    }
-}
+   
