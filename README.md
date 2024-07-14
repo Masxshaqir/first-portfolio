@@ -12,13 +12,14 @@ Welcome to Nordic Odyssey, an immersive photo gallery showcasing the breathtakin
 
 4-Responsive Across Devices: Whether you are on a desktop, tablet, or mobile, the navigation dropdown is fully responsive, adapting to the screen size and orientation for a seamless browsing experience.
 ## The Header
-![Screenshot 2024-05-07 at 20 41 46](https://github.com/Masxshaqir/first-portfolio/assets/166545640/83720d34-585a-48eb-b100-8196707e99cd)
+![Screenshot 2024-07-14 at 18 24 56](https://github.com/user-attachments/assets/ec3362fa-0059-4fc3-8e43-ba8fc6db961c)
 
 - Dynamic Header Design
 The header of "Nordic Odyssey" prominently features a captivating high-resolution photograph of a mountain, symbolizing the majestic and awe-inspiring nature of the Swedish landscapes showcased on our site. This image sets the tone for the immersive visual experience that follows in the gallery.
 - Intuitive Dropdown Navigation
 - Strategic Placement
 - Consistency in Design
+- Added transparent background to increase  visibility
 ## Drop-Down Button 
 ![Screenshot 2024-05-07 at 21 20 15](https://github.com/Masxshaqir/first-portfolio/assets/166545640/ce4fc919-73c0-4a33-a03d-4fa38c0fbb87)
 - Position and Accessibility: Positioned on the upper-left corner, this drop-down button is strategically placed for ease of access. Since the top-left corner is often the first place a user looks when visiting a webpage, especially for those who read left-to-right, this placement ensures that the navigation options are immediately visible and accessible.
@@ -51,14 +52,16 @@ The header of "Nordic Odyssey" prominently features a captivating high-resolutio
 
 ## Bugs
 - When I deployed my page on GitHub, I noticed that the layout allowed horizontal scrolling on smaller devices. To resolve this issue, I implemented the code bellow in the CSS, effectively preventing any sideways movement of the page on these devices.
-
+- Identified that the dropdown button was not responsive across all platforms and screen sizes. This issue has been debugged and resolved in the CSS file to ensure better functionality and user experience.
 ####  overflow-x: hidden;
 
 ## Validator Testing
 ### HTML 
 - No errors or warnings
+![Screenshot 2024-07-14 at 18 22 28](https://github.com/user-attachments/assets/03af06d8-26fd-4063-8954-3ce1ceea7340)
 ### CSS
 - No Error Found.
+![Screenshot 2024-07-14 at 18 23 40](https://github.com/user-attachments/assets/9b7865ab-cf51-4b50-9f9e-acedda5a06c3)
 ### Accessibility 
 - I confirm that the color and the design chosen are easy to read and accessible by running it through lighthouse in devtool .
 ![Screenshot 2024-05-07 at 21 45 29](https://github.com/Masxshaqir/first-portfolio/assets/166545640/a7f3ff0f-171e-494c-b34d-cc7e61a31160)
