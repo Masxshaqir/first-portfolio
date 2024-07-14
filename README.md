@@ -43,7 +43,7 @@ The header of "Nordic Odyssey" prominently features a captivating high-resolutio
 
 
 ## Contact Us Page
-![Screenshot 2024-05-07 at 21 16 54](https://github.com/Masxshaqir/first-portfolio/assets/166545640/13410803-6bdd-4cec-abb4-8463b4b901e3)
+![Screenshot 2024-07-14 at 18 38 05](https://github.com/user-attachments/assets/bca49930-6847-404c-ab87-1ae1ed92764f)
 - On the "Contact Us" page, you will find a designated contact form. This form allows you to communicate directly with us by simply entering your name, email address, and the message you wish to convey. We encourage you to use this form to submit inquiries, feedback, or any communication relevant to your needs. Please fill out the respective fields and submit your message, and we will endeavor to respond at the earliest opportunity.
 ## Testing 
 - I verified the compatibility of this page across multiple browsers, including Chrome, Firefox, and Safari.
